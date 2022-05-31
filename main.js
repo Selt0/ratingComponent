@@ -1,5 +1,7 @@
-const ratingPanel = document.querySelector('#rating')
-const thankYouPanel = document.querySelector('#thankYou')
+const card = document.querySelector('.card')
+const container = document.querySelector('container')
+const ratingPanel = document.querySelector('.front-card')
+const thankYouPanel = document.querySelector('.back-card')
 
 const buttons = document.querySelector('.ratingButtons').addEventListener('click', applyRating)
 const submitButton = document.querySelector('#submit').addEventListener('click', submitPanel)
@@ -22,8 +24,8 @@ async function applyRating(e){
 }
 
 async function submitPanel(){
-  // grab rating and display in userRating span
-  ratingPanel.style.display = 'none'
-  thankYouPanel.style.display = 'block'
+  // add flip to card
+  card.classList.add('is-flipped')
+  // display rating
   userRating.textContent = rating
 }
