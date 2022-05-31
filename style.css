@@ -3,7 +3,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-#thankYou {
+#rating {
   display: none;
 }
 
@@ -35,7 +35,11 @@ h2, a {
 }
 
 .container {
-  padding: 2.2em;
+  padding: 2.5em;
+}
+
+#thankYou .container {
+  text-align: center;
 }
 
 .circle {
@@ -70,4 +74,15 @@ h2, a {
   padding-bottom: 10px;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.selection p {
+  color: #FB7413;
+  background-color: hsl(213, 19%, 18%);
+  width: fit-content;
+  margin: 2em auto;
+  padding: 5px 20px;
+  border-radius: 30px;
+  opacity: 0.75;
+  letter-spacing: .5px;
 }
