@@ -1,0 +1,73 @@
+/* mentor attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+#thankYou {
+  display: none;
+}
+
+body {
+  background-color: #141519;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+p {
+  font-size: 15px;
+  color: #7C8798;
+  padding-bottom: 10px;
+  line-height: 1.8em;
+}
+
+h2, a {
+  color: #fff;
+}
+
+.card {
+  max-width: 425px;
+  background: rgb(33,40,50);
+  background: linear-gradient(180deg, rgba(33,40,50,1) 0%, rgba(23,29,39,1) 74%);
+  border-radius: 5%;
+}
+
+.container {
+  padding: 2.2em;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color:  hsl(213, 19%, 18%);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ratingButtons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+}
+
+.ratingButtons .circle {
+  cursor: pointer;
+  color: #7C8798;
+}
+
+#submit {
+  display: block;
+  text-align: center;
+  background: #FB7413;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
